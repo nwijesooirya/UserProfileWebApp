@@ -1,0 +1,100 @@
+body{
+    background-image: url(../Images/8487305.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.back{
+    background-color:thistle;
+    padding: 3px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    width: fit-content;
+    height: fit-content;
+    height: max-content;
+    margin: auto;
+    border-radius: 30px;
+}
+
+.heading{
+    color: brown;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    transition: text-shadow 0.3s ease;
+}
+
+.heading:hover{
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #79d9e8, 0 0 40px #ff00ff;
+}
+
+table{
+	border: 0;
+    background: transparent;
+    backdrop-filter: blur(70px);
+    border-spacing: 25px;
+    margin: auto;
+    border-radius: 20px;
+    width: fit-content;
+}
+
+.data{
+    background: transparent;
+    backdrop-filter: blur(70px);
+    right:50px;
+    width: 250px;
+    border: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.data:hover{
+    color: blueviolet;
+}
+
+#headerrow{
+    text-align: center; 
+    border-radius: 200px;
+    padding: 30px;
+}
+
+#topicdata{
+   text-align: right;
+}
+
+.profform{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.sbtnup{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    background-color:mediumseagreen;
+    height: 28px;
+    width: 70px;
+    float: right;
+    border-radius: 5px;
+}
+
+.sbtdel{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    background-color:red;
+    height: 28px;
+    width: 70px;
+    float: right;
+    border-radius: 5px;
+}
+
+.sbtnup:hover{
+    background-color: forestgreen;
+}
+
+.sbtdel:hover{
+    background-color:crimson;
+}

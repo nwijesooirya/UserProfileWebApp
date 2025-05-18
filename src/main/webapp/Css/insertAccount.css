@@ -1,0 +1,96 @@
+body {
+    position: relative;
+    background-image: url(../Images/shipping-delivery-75-opacity.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#createA {
+    color: #8B4513; /* Slightly lighter brown */
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 38px; /* Slightly smaller font size */
+}
+
+.signupform {
+    background: rgba(255, 255, 255, 0.8); /* Lighter background with transparency */
+    border: 1px solid #f5deb3; /* Lighter border color */
+    backdrop-filter: blur(10px); /* Reduced blur for a cleaner look */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); /* Lighter box shadow */
+    margin: auto;
+    width: fit-content;
+    padding: 15px 30px;
+    border-radius: 12px;
+}
+
+.fset {
+    border-width: medium;
+    border-color: black;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.leg {
+    text-align: right;
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+    width: fit-content;
+}
+
+.frmS {
+    font-size: large;
+    margin: auto;
+}
+
+.table {
+    width: 700px;
+    height: 450px;
+    border-spacing: 10px;
+    border: 0;
+}
+
+.fields {
+    background: rgba(255, 255, 255, 0.8); /* Lighten the input background */
+    width: 210px;
+    height: 18px;
+    font-size: 15px;
+    float: right;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.3); /* Lighter border color */
+    border-radius: 4px;
+}
+
+#role {
+    width: 217px;
+    height: 27px;
+}
+
+.exlinks {
+    font-size: 16px;
+}
+
+.exlinks:hover {
+    color: red;
+}
+
+.tocenter {
+    text-align: center;
+}
+
+.sbtn {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #FFD700; /* Lighter gold */
+    float: right;
+    height: 28px;
+    width: 90px;
+    border-radius: 5px;
+}
+
+.sbtn:hover {
+    background-color: #FFA500; /* Lighter orange on hover */
+}

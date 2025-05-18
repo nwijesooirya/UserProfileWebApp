@@ -1,0 +1,52 @@
+body{
+    background-color: #ffe0b5;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+
+h1{
+    text-decoration: none;
+    color: blue;
+    position: relative;
+    text-align: center;
+    font-size: 34px;
+}
+
+h1::after {
+    content: '';
+    position: absolute;
+    width: 40%;
+    height: 2px;
+    bottom: 0;
+    left: 30%;
+    background-color:blue; /* The underline color */
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.8s ease-out;
+}
+
+h1:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.intro{
+    font-size: large;
+}
+
+.para{
+    text-align: justify;
+    font-size: larger;
+    display: inline-block;
+    transition: transform 0.4s ease;
+}
+
+.para:hover {
+    transform: scale(1.04);
+}

@@ -1,0 +1,97 @@
+body{
+    background-image: url(../Images/shipping-delivery.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#createA{
+    color: brown;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 38px;
+}
+
+.signupform{
+    background:transparent;
+    border: 2px solid blanchedalmond;
+    backdrop-filter : blur(90px);
+    box-shadow:10px;
+    margin: auto;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.fset{
+    /* background-color: #ffe0b5; */
+    border-width : medium;
+    border-color: black;
+    width: fit-content;
+    /* margin: auto; */
+    padding: 23px;
+    border-radius: 10px;
+}
+
+.leg{
+    text-align: right;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    width: fit-content;
+}
+
+.frmS{
+    font-size: large;
+    margin: auto;
+}
+
+.table{
+    width: 700px;
+    height: 450px;
+    border-spacing: 10px;
+    border : border="0";
+}
+
+.fields{
+    background: transparent;
+    width: 210px;
+    height: 18px;
+    font-size: 15px;
+    float: right;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.498);
+    border-radius: 4px;
+}
+
+#role{
+    width: 217px;
+    height: 27px;
+}
+
+.exlinks{
+    font: size 16px;
+}
+
+.exlinks:hover{
+    color: red;
+}
+
+.tocenter{
+    text-align: center;
+}
+
+.sbtn{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    background-color:gold;
+    float: right;
+    height: 28px;
+    width: 90px;
+    border-radius: 5px;
+}
+
+.sbtn:hover{
+    background-color:orange;
+}
